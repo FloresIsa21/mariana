@@ -1,0 +1,102 @@
+.header-homepage {
+  background-image: url("../images/header-image.png");
+  background-size: cover;
+  height: 600px;
+ }
+
+
+.container-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+#nav-background{
+  background-color: #fffafaab;
+  position: relative;
+}
+
+#logo { 
+  margin-left: 60px;
+  height: 45px;
+}
+
+.pages{
+  display: inline-block;
+  font-size: 20px;
+  margin-left: -180px;
+  margin-right: 180px;
+  padding: 20px 45px 20px 45px;
+  color: #080808;
+}
+
+.title{
+  display: inline-block;
+  margin-left: 615px;
+  margin-right: 20px;
+  margin-top: 240px;
+
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+h1{
+  color:#FFFBF9;
+  text-align: center;
+  font-family: "playfair display", serif;
+  font-size: 200px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0%;
+}
+
+h2{
+  color: #ED1A38;
+  text-align: center;
+  font-family: "playfair display", serif;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: -60px;
+}
+
+p{
+  color: inherit;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container-intro{
+  display: block;
+  align-items: center;
+  text-align: center;
+  background-color: #99142C;
+  height: 400px;
+  margin-top: -20px;
+}
+
+.container-projects{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  overflow-x: scroll;
+  overflow: auto;
+}
+
+.project-img{
+  height: 550px;
+  padding: 20px;
+}
