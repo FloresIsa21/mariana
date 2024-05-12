@@ -283,7 +283,7 @@ hr {
 
 .half-page-text-contact h3{
   text-align: left;
-  font-weight: 600;
+  font-weight: normal;
   margin-left: -550px;
   margin-bottom: 30px;
   inline-size: none;
@@ -293,7 +293,7 @@ hr {
 .half-page-text-contact h4{
   font-family: 'Inter', sans-serif;
   font-size: 24px;
-  font-weight: lighter;
+  font-weight: normal;
   font-style: italic;
   text-align: left;
   width: 285px;
@@ -303,6 +303,7 @@ hr {
 
 .half-page-text-contact p{
   text-align: left;
+  font-weight: normal;
   margin-left: -550px;
   width: 220px;
   inline-size: none;
