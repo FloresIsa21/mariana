@@ -16,7 +16,7 @@
 }
 
 #nav-background{
-  background-color: #fffafaab;
+  background-color: #ffffff;
   position: relative;
 }
 
@@ -52,6 +52,36 @@
 #gallery{
   color: #ED1A38;
   padding-right: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+
+#gallery ul{
+  margin-left: 320px;
+  width: 40%;
+}
+
+#gallery h5{
+  margin-left: 360px;
+  font-style: italic;
+  width: 50px;
+}
+
+#gallery li{
+  list-style: none;
+  text-align: left;
+  padding: 4px;
+  color: #080808;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+#gallery:hover{
+  color: #ED1A38;
 }
 
 main img{
@@ -74,6 +104,42 @@ main img{
   padding: 20px;
 }
 
+.gallery-titles{
+  background-color: #ED1A38;
+  color: #FFFAFA;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 1200px;
+  margin-left: 20px; 
+  border-radius: 50px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+#photography{
+  margin-top: 200px;
+}
+
+#editorial{
+  margin-top: 200px;
+}
+
+#branding{
+  margin-top: 200px;
+}
+
+#webdesign{
+  margin-top: 200px;
+}
+
+#socialmedia{
+  margin-top: 200px;
+}
+
 .about{
   margin-top: 450px;
 }
@@ -92,7 +158,7 @@ main img{
   width: 700px;
   height: 700px;
   margin-left: 100px;
-  margin-top: -300px;
+  margin-top: -240px;
   border-radius: 20px;
 }
 
@@ -168,6 +234,14 @@ h3{
   line-height: normal;
 }
 
+h5{
+  font-size: 22px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0px;
+}
+
 p{
   color: inherit;
   font-family: 'Inter', sans-serif;
@@ -178,54 +252,93 @@ p{
 }
 
 .container-intro{
-  display: block;
-  align-items: center;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
   background-color: #99142C;
-  height: 500px;
-  margin-top: -20px;
   color: #FFFBF9;
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+  overflow: hidden;
 }
 
 .container-intro p{
-  padding: 100px 180px 50px 180px;
+  color: #FFFAFA;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: 46px;
+  width: 680px;
+  overflow: hidden;
 }
 
-.container-intro ul{
+.container-more{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-items: left;
+  text-align: left;
+  margin-left: 100px;
+  padding-top: 200px;
+  overflow: hidden;
+}
+.container-more p{
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.container-more svg{
+  margin-left: -520px;
+  padding-top: 30px;
+  overflow: hidden;
+}
+
+.container-areas{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: left;
+  font-family: 'Inter', sans-serif;
+  padding-left: 200px;
+  margin-top: 200px;
+}
+
+.container-areas p{
+  text-align: left;
+  color: #080808;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 20px;
+}
+.container-areas img{
+  width: 448px;
+  height: 448px;
+}
+
+.container-areas ul{
   padding-bottom: 20px;
 }
 
-#container-intro-ul-1{
-  padding-left: 200px;
-  padding-right: 200px;
-}
-
-#container-intro-ul-2{
-  padding-left: 60px;
-  padding-right: 250px;
-}
-
-.container-intro li{
+.container-areas li{
   list-style: none;
-  text-align: center;
-  padding: 20px;
-  font-family: 'Inter', sans-serif;
-  font-size: 17px;
-  font-style: light;
-  font-weight: 300;
-  outline: auto;
-  outline-color: #FFFBF9;
-  border-radius: 100px;
-  margin: 10px 30px 0px 30px;
-  width: 200px;
+  text-align: left;
+  padding: 10px;
+  color: #080808;
+  font-family: Inter;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: lighter;
 }
 
 .title-projects{
   margin-top: 200px;
   margin-left: 600px;
   margin-right: 100px;
+  margin-bottom: 15px;
   padding: 0%;
 }
 
@@ -248,7 +361,6 @@ p{
   scroll-behavior: smooth;
 }
 
-
 .project-img{
   height: 550px;
   padding: 20px;
@@ -257,10 +369,15 @@ p{
 .half-page-text{
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: -350px;
+  margin-top: -380px;
   margin-bottom: 100px;
   margin-left: 850px;
   margin-right: 70px;
+}
+
+.half-page-text p{
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 hr {
@@ -283,7 +400,7 @@ hr {
 
 .half-page-text-contact h3{
   text-align: left;
-  font-weight: normal;
+  font-weight: 600;
   margin-left: -550px;
   margin-bottom: 30px;
   inline-size: none;
@@ -293,7 +410,7 @@ hr {
 .half-page-text-contact h4{
   font-family: 'Inter', sans-serif;
   font-size: 24px;
-  font-weight: normal;
+  font-weight: lighter;
   font-style: italic;
   text-align: left;
   width: 285px;
@@ -303,7 +420,6 @@ hr {
 
 .half-page-text-contact p{
   text-align: left;
-  font-weight: normal;
   margin-left: -550px;
   width: 220px;
   inline-size: none;
@@ -313,6 +429,10 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 20px;
+}
+
+.half-page-text-contact strong{
+  color: #ED1A39;
 }
 
 .contact-info img{
@@ -372,8 +492,9 @@ input[type=submit] {
   font-weight: lighter;
   font-size: 20px;
   margin-top: 40px;
-  margin-left: 420px;
-  width: 120px;
+  margin-left: 380px;
+  width: 160px;
+  padding: 10px;
 }
 
 input[type=submit]:hover {
@@ -414,7 +535,6 @@ input[type=submit]:hover {
 
 .container-footer p{
   color: #FFFBF9;
-  font-size: 11px;
   font-weight: 300;
   text-align: center;
   padding-bottom: 30px;
